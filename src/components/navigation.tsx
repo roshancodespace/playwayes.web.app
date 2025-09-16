@@ -43,7 +43,7 @@ function Navigation() {
             Features
           </Link>
           <Link
-            href="/#showcase"
+            href="/#gallery"
             className="inline-block mx-4 cursor-pointer hover:underline"
           >
             Showcase
@@ -94,7 +94,7 @@ function Navigation() {
               Features
             </Link>
             <Link
-              href="/#showcase"
+              href="/#gallery"
               onClick={toggleMenu}
               className="hover:underline"
             >
