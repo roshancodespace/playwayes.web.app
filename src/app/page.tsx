@@ -7,10 +7,10 @@ import SpotlightCard from '@/components/SpotlightCard';
 import { BiMobile } from 'react-icons/bi';
 import ScrollFloat from '@/components/ScrollFloat';
 import { FaTelegram, FaInstagram, FaGithub } from "react-icons/fa";
+import { fetchLatestArm64V8aApk } from '@/util/github';
 
 const PlaywavesLanding = async () => {
-  // const downloadUrl = await fetchLatestArm64V8aApk('Bhanu7773-dev', 'PlayWaves-Releases')
-  const downloadUrl = '#';
+  const downloadUrl = await fetchLatestArm64V8aApk('Bhanu7773-dev', 'PlayWaves-Releases')
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
